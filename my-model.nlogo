@@ -1,6 +1,6 @@
 to setup
   clear-all
-  create-turtles 9 [
+  create-turtles 10 [
     forward 5
   ]
   reset-ticks
@@ -12,7 +12,7 @@ end
 
 to test
   setup
-  if count turtles != 10 [ error (word "There are " count turtles " instead of 5") ]
+  if count turtles != 10 [ error (word "There are " count turtles " instead of 10") ]
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
